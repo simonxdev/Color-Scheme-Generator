@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <input type="color" id="selectcolor">
+                <select id="selectmode">
+                    <option>monochrome</option>
+                    <option>monochrome-dark</option>
+                    <option>monochrome-light</option>
+                    <option>analogic</option>
+                    <option>complement</option>
+                    <option>analogic-complement</option>
+                    <option>triad</option>
+                    <option>quad</option>
+                </select>
+                <button id="getcolorbtn">Get Color Scheme</button>
+            </nav>
+            <main id="main">
+                <div class="color" id="color1">&nbsp;<div class="colorcode" id="colorcode1">#12345</div></div>
+                <div class="color" id="color2">&nbsp;<div class="colorcode" id="colorcode2">#12345</div></div>
+                <div class="color" id="color3">&nbsp;<div class="colorcode" id="colorcode3">#12345</div></div>
+                <div class="color" id="color4">&nbsp;<div class="colorcode" id="colorcode4">#12345</div></div>
+                <div class="color" id="color5">&nbsp;<div class="colorcode" id="colorcode5">#12345</div></div>
+            </main>
+            <div class="clipboard">Click Hexcode to copy into Clipboard</div>
+            <div class="clipboard-copy" id="clipboard-copy"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
